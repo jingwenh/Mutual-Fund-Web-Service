@@ -146,7 +146,7 @@ def lambda_handler(event, context):
     passwd = new_customer["password"]
     
     # Connect to db
-    db = pymysql.connect("ian.ckmruh9i5xcv.us-east-1.rds.amazonaws.com", user="root",passwd="**********",db="mutual_fund", connect_timeout=5, charset='utf8')
+    db = pymysql.connect("*****", user="root",passwd="**********",db="mutual_fund", connect_timeout=5, charset='utf8')
     cursor = db.cursor()
     try:
         sql_cc = "INSERT INTO `customer_credential` (`customer_id`, `password`) VALUES (%s, %s)"
