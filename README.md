@@ -15,6 +15,9 @@ The whole system is built upon a **microservice architecture**, and can be mainl
 * AWS API Gateway
 * MySQL + AWS RDS
 
+## Specification
+* Check here: https://github.com/jingwenh/Mutual-Fund-Web-Service/blob/master/Task%208%20Specification-1.pdf
+
 ## Trade-offs in System Design
 ### Monolith system vs. Microservices
 #### Design Decision
