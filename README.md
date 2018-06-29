@@ -21,7 +21,7 @@ The whole system is built upon a **microservice architecture**, and can be mainl
 ## Trade-offs in System Design
 ### Monolith system vs. Microservices
 #### Design Decision
-In our design, we use microservice architectures for following reasons:  
+In our design, we use microservice architecture for following reasons:  
 * Dividing system into smaller parts are easier to understand and divide work
 * Easier to separate back-end from front-end
 * Easier to scale
@@ -31,7 +31,7 @@ One problem in microservice architecture is that communication between services 
 
 ### Server vs. Serverless
 #### Design Decision
-In our design, we use serverless architectures for following reasons:  
+In our design, we use serverless architecture for following reasons:  
 * We have limited time to develop, so we try to focus on the services rather than underlying infrastructure
 * We have limited time to test our system online, so we directly develop our system online using AWS Lambda
 #### Downside, Challenge & Solution
