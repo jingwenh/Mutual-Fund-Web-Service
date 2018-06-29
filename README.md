@@ -2,7 +2,7 @@
 ## Architechture Overview
 ![architecture](https://github.com/jingwenh/Mutual-Fund-Web-Service/blob/master/Mutual%20Fund.png?raw=true)  
   
-The whole system is built upon a **microservice architecture**, and can be mainly five parts:  
+The whole system is built upon a **microservice architecture**, and can be mainly divided into five parts:  
 * Login / logout service: user can send username and password to login service, if the credentials are correct, an encrypted token will be assigned to the in the cookie. Requesting the logout service can invalidate current token.
 * Access control service: authenticates user's token and response with username if succeed
 * Application services: provides specific service after successful authentication by the access control service
